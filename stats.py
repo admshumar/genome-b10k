@@ -1,22 +1,9 @@
 import pandas as pd
-import numpy as np
-import bokeh
-import itertools
-
-from bokeh.models import Select, HoverTool, NumeralTickFormatter, ColumnDataSource, Div
-from bokeh.plotting import curdoc, figure, show, output_file, save
-from bokeh.io import output_notebook
-# from bokeh.models.widgets import CheckboxGroup
-from bokeh.layouts import widgetbox, row, column
-
-from collections import OrderedDict
-
-from bokeh.layouts import layout
-from bokeh.models.widgets import Tabs, Panel
 from bokeh.io import curdoc
-from bokeh.embed import file_html
-from bokeh.resources import CDN
-from os.path import dirname, join
+from bokeh.layouts import layout
+from bokeh.layouts import row, column
+from bokeh.models import Select
+from bokeh.plotting import figure, show
 
 ##### Load the data file
 
